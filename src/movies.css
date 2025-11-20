@@ -1,0 +1,46 @@
+.movies-container {
+  padding: 20px;
+}
+
+.movies-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.movie-card {
+  background: #111;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+  transition: transform 0.2s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  display: block;
+}
+
+.movie-info {
+  padding: 10px;
+  text-align: center;
+}
+
+.movie-info h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.movie-info p {
+  margin-top: 5px;
+  color: gold;
+}
